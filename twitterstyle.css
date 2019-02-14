@@ -1,0 +1,181 @@
+* {
+		box-sizing: border-box;
+		}
+		
+	.header {
+		
+		color: #38A1F3;
+		padding: 5px 20px 5px 20px;
+		width: 100%;
+		background-color: #fff;
+		margin: 5px auto auto auto;
+		
+	}
+	
+	.nav1 {
+		color: #38A1F3;
+		font-size: 20px;
+		padding: 7px 30px;
+		display: inline-block;
+		font-family: segoe ui;
+		text-decoration:none;
+		}
+		.nav2 {
+			margin: 10px 50px 10px 30px;
+			
+		}
+		
+		#searchtext {
+		  width: 130px;
+		  box-sizing: border-box;
+		  border: 2px solid #ccc;
+		  border-radius: 4px;
+		  font-size: 16px;
+		  background-color: white;
+		  background-image: url('searchicon.png');
+		  background-position: 10px 10px; 
+		  background-repeat: no-repeat;
+		  padding: 12px 20px 12px 40px;
+		  -webkit-transition: width 0.4s ease-in-out;
+		  transition: width 0.4s ease-in-out;
+		}
+
+		#searchtext:focus {
+			width: 60%;
+		}
+	.profile {
+		width: 100%;
+		
+		
+		}
+		
+	.profile-basic {
+		float: left;
+		border: 5px solid white;
+		
+		width: 20%;
+		height: 100px;
+		
+		
+		background-color: #38A1F3;
+		}
+		
+	.post-something {
+		float: left;
+		border: 5px solid white;
+		width: 70%;
+		height: 100px;
+		padding: 20px;
+		
+		
+		}
+		
+	.basic-info {
+		float: left;
+		border: 2px solid white;
+		width: 20%;
+		height: 200px;
+		background-color: #fff;
+		}
+		
+	
+	
+	.main-tweet {
+		float: left;
+		width: 100%;
+		border: 2px solid #a9a9a9;
+		padding: 10px;
+		margin:3px;
+		height: 50px;
+		font-family:segoe ui;
+		font-size: 15px;
+		
+		}
+	.feeds-container {
+		border: 5px solid white;
+		
+		width:80%;
+		min-height:150px;
+		float: right; 
+		padding: 20px;
+		text-align: center;
+		display: block;
+		
+			
+		}
+	#retweeted {
+		float:left;
+		font-family:segoe ui;
+		color:#696969;
+	}
+	
+	.commentdiv {
+		float: clear;
+		margin: 10px;
+		text-align: left;
+	}
+		
+	.feeds-container > .tweet-button {
+	margin:10px 20px 10px 20px;
+	}
+		
+	.item1 {
+		position: absolute;
+		padding: 50px 70px 0px 20px;
+		z-index: 1;
+		
+		}
+	#username {
+		margin: 40px 50px 0px 130px;
+		font-size: 25px;
+		font-family: segoe ui;
+	}
+	
+	#userhandle {
+		
+		margin: 0px 40px 10px 140px;
+		font-size: 17px;
+		font-family: segoe ui;
+		color: black;
+		text-decoration:none;
+		}
+		
+	.number-of {
+		font-size: 17px;
+		font-family: segoe ui;
+		color: #696969;
+		padding: 0px 10px 0px 0px;
+		text-decoration:none;
+	}
+		
+	#tweet-numbers {
+		border: none;
+		padding: 10px 15px 10px 15px;
+		text-align: center;
+		
+		}
+		
+			
+	
+	#topost {
+		width: 90%;
+		height: 50px;
+		font-size: 14px;
+	}
+	.tweet-button {
+		background-color: #38A1F3;
+		border: none;
+		border-radius: 40%;
+		color: white;
+		padding: 10px ;
+		text-align: center;
+		text-decoration: bold;
+		
+		font-size: 14px;
+		font-family: segoe ui;
+		cursor: pointer;
+	}
+	#startfeed {
+		font-size: 20px;
+		color: black;
+	}
